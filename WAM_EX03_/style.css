@@ -21,6 +21,29 @@
 
     }
 
+    .fixed{
+        overflow: scroll;
+        float: left;
+        width: 210px;
+        font-family:'Trebuchet MS';
+        font-size: 20px;
+        color:azure;
+        padding: 5%;
+        background-color: cadetblue;
+    }
+
+    a{
+        font-family:'Trebuchet MS';
+        font-size: 20px;
+        color:azure;
+    }
+
+    ul{
+        list-style-type: square;
+        list-style-position: inside;
+        margin: 0px;
+        padding: 0%;
+    }
 /* FIRST DISPLAY */
 
     #one :hover{

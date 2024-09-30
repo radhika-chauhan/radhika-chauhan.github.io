@@ -1,0 +1,83 @@
+body{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 1%;
+    background-color:rgba(215, 129, 116, 1);
+    font-family: monospace;
+    font-size: 45px;
+    color: rgba(6, 139, 15, 1); 
+}
+
+a{
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(6, 139, 15, 1);
+}
+
+h1{
+    font-family: monospace;
+    font-size: 90px;
+    color: rgba(6, 139, 15, 1); 
+    
+}
+
+.fixed{
+    overflow: scroll;
+    float: left top;
+    width: 10%;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(6, 139, 15, 1);
+}
+
+[class^="scroll-"]{
+    overflow: scroll;
+    height: 50px;
+    width: 35%;
+    padding: 5%;
+    float: left;
+    /* margin-top: 20px; */
+    line-height: 44px;
+    /* font-family: monospace;
+    font-size: 45px;
+    color: rgba(6, 139, 15, 1);  */
+} 
+
+.scroll-9{
+    margin-bottom: 2%;
+}
+
+/* 
+.scroll-1{
+    background-color: beige;
+}
+.scroll-2{
+    background-color:pink;
+}
+.scroll-3{
+    background-color:cornflowerblue;
+}
+.scroll-4{
+    background-color:darkkhaki;
+}
+.scroll-5{
+    background-color:darkseagreen;
+}
+.scroll-6{
+    background-color:cadetblue;
+}
+.scroll-7{
+    background-color:burlywood;
+}
+.scroll-8{
+    background-color:darkolivegreen;
+}
+.scroll-9{
+    background-color:lightgreen;
+}
+.scroll-10{
+    background-color:slateblue;
+} */
+
+
+
