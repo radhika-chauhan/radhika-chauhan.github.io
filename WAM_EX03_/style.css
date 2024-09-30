@@ -2,7 +2,7 @@
 /* GLOBAL PROPERTIES */
 
     body{
-        background-color:white;
+        background-color:darkslateblue;
     }
 
     p{
@@ -195,7 +195,7 @@
 
     #fourth :hover{
         transform: translateX(40px);
-        background-color: rgb(213, 104, 122);
+        background-color:gold;
     }
 
     #fourth{
@@ -213,7 +213,7 @@
 
     /* relational class properties */
     [class^="s-"] {
-        background-color: pink;
+        background-color:pink
     }
 
     .s-1{
@@ -255,3 +255,131 @@
         grid-column: 1/9;
         grid-row: 8;
     }
+
+/* FIFTH DISPLAY */
+
+    #fifth :hover{
+        /* transform: translateX(40px); */
+        background-color:rgb(236, 124, 63);
+        color: crimson;
+    }
+
+    #fifth{
+        float: left;
+        background-color:rgb(236, 124, 63);
+        padding: 3%;
+        width: 500px;
+        display: grid;
+        grid-template-columns: (8, 1fr);
+        gap: 5px;
+        grid-auto-rows: minmax(80px, auto);
+        font-family: helvetica;
+        text-align: center;
+        font-size: 80px;
+        color:rgb(236, 124, 63);
+    }
+
+
+
+    /* relational class properties */
+    [class^="t-"] {
+        background-color:crimson;
+    }
+
+    .t-1{
+        grid-column: 1;
+        grid-row: 1;
+        
+    }
+    .t-2{
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+    .t-3{
+        grid-column: 3;
+        grid-row: 1;
+    
+    }
+    .t-4{
+        grid-column: 4;
+        grid-row: 1;
+        
+    }
+    .t-5{
+        grid-column: 5;
+        grid-row: 1;
+        
+    }
+    .t-6{
+        grid-column: 5;
+        grid-row: 2;
+        
+    }
+    .t-7{
+        grid-column: 4;
+        grid-row: 3;
+        
+    }
+    .t-8{
+        grid-column: 3;
+        grid-row: 4;
+    }
+    .t-9{
+        grid-column: 2;
+        grid-row: 5;
+    }
+    .t-10{
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .t-11{
+        grid-column: 1;
+        grid-row: 7;
+    }
+    .t-12{
+        grid-column: 2;
+        grid-row: 7;
+    }
+    .t-13{
+        grid-column: 3;
+        grid-row: 7;
+    }
+    .t-14{
+        grid-column: 4;
+        grid-row: 7;
+    }
+    .t-15{
+        grid-column: 5;
+        grid-row: 7;
+    }
+
+/* sixth display
+
+#sixth:hover{
+    background-color: black;
+}
+
+#sixth{
+    float: left;
+    background-color:rgb(236, 124, 63);
+    padding: 3%;
+    width: 500px;
+    display: grid;
+    grid-template-columns: (8, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(80px, auto);
+}
+
+[class^="z-"] {
+    background-color:deeppink;
+}
+
+.z-1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.z-1{
+    grid-column: 2;
+    grid-row: 1;
+} */
