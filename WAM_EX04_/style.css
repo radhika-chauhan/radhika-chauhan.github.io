@@ -1,0 +1,52 @@
+/* #one :hover{
+    transform: scale(.7,1.5);
+    background-color: orange;
+} */
+
+#one{
+    background-color: aquamarine;
+    padding: 2%;
+    width: 95%;
+    float: left;
+}
+
+.top {
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    border-radius: 0;    
+}
+
+.mid-1 {
+    
+    height: 70px;
+    width: 150px;
+    background-color:black;
+
+}
+
+.mid-2 {
+   
+    height: 100px;
+    width: 220px;
+    background-color:black;
+    border-radius: 0;
+    
+}
+
+.mid-3 {
+    
+    height: 70px;
+    width: 150px;
+    background-color:black;
+    border-radius: 0;
+}
+
+.bottom{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    border-radius: 0;    
+}
+
+

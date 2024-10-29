@@ -1,0 +1,130 @@
+/* violet
+rgba(141, 122, 170, 1)
+
+yellow
+rgba(237, 219, 70, 1)
+
+dark-blue
+rgba(52, 112, 168, 1)
+
+light-blue
+rgba(98, 207, 237, 1)
+
+green
+rgba(125, 192, 137, 1)
+
+red
+rgba(213, 82, 77, 1)
+
+pink
+rgba(208, 114, 132, 1)
+
+orange
+rgba(218, 118, 42, 1)
+
+*/
+
+body{
+    background-color:azure;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+
+.home{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(42, 165, 108);
+    padding: 1%;
+    left: 10px;
+    bottom: 10px;
+}
+
+.article{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(42, 165, 108);
+    font-style: italic;
+}
+
+.article:hover{
+    color: azure;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(42, 165, 108);; */
+}
+
+[class^="column-"] {
+    margin-top: 2px;
+
+}
+
+.column-2{
+    margin-top: 227px;
+}
+
+[class^="item-"] {
+    /* background-color: #292929; */
+    /* margin-bottom: 74px; */
+    padding: 15px;
+    
+    font-size: 22px;
+    line-height: 140%;
+    width: 300px;
+    height: 380px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+    border-radius: 2%;
+    color: brown;
+}
+
+[class^="item-"]:hover{
+background-color: brown;
+color: azure;
+}
+
+
+/* item background colors */
+
+/* .item-db {
+    background-color: rgba(52, 112, 168, 1);
+}
+.item-r{
+    background-color: rgba(213, 82, 77, 1);
+}
+.item-g{
+    background-color: rgba(125, 192, 137, 1);
+}
+.item-p{
+    background-color: rgba(208, 114, 132, 1);
+}
+.item-y{
+    background-color: rgba(237, 219, 70, 1);
+
+}
+.item-v{
+    background-color: rgba(141, 122, 170, 1);
+}
+.item-o{
+    background-color: rgba(218, 118, 42, 1);
+    /* font-style: italic;
+    font-weight: 800;
+    font-size: 30px; 
+    overflow: scroll; */
+}
+.item-lb{
+    background-color: rgba(98, 207, 237, 1);
+} */
+
+
+
+
