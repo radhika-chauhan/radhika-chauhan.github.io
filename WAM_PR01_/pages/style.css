@@ -1,0 +1,107 @@
+
+body{
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+.home{
+  /* position: fixed;
+  padding: 1%;
+  top: 70px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(42, 165, 108); */
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(42, 165, 108);
+    padding: 1%;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+/* main container for column blocks */
+.container{
+    display: flex;
+    flex-direction: row;
+    /* padding: 1%; */
+    /* background-color: yellow */
+}
+
+/* left side text img and head display fixed */
+.fixed{
+    position: fixed;
+    padding: 1%;
+    background-color: brown;
+    color: azure;
+    max-width: 45%;
+    /* border: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    border-color: brown; */
+    
+}
+
+/* article lives here -- right side page */
+.page{
+    width: 50%;
+    padding: 1%;
+    margin-left: 50%;
+}
+
+/* The image is hidden by default */
+.special-container img {
+    display: none;
+    position: fixed;
+    top: 7%; 
+    left: 5%;
+    max-width: 40%;
+    max-height: 82%;
+    margin-top: 10px; 
+  }
+
+  /* Show image when hovering over the text */
+  .special-container:hover img {
+    display: block;
+  }
+
+  /* Styling for the text */
+  .special-container .hover-text {
+    cursor: pointer;
+    color: brown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Styling for the text on hover */
+  .special-container .hover-text:hover {
+    color: rgb(42, 165, 108);
+  }
+
+  /* extract of text leading to home */
+  .index{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+
+    color: rgb(42, 165, 108);
+    /* font-family:Georgia; */
+    font-style: italic;
+
+    padding: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 9%;
+    
+  }
+
+  .index:hover{
+    color:brown;
+  }
