@@ -2,8 +2,8 @@
 const events = [
     {
         name: 'First Event',
-        startTime: new Date('2024-11-26T14:00:00-05:00'), // EST start time
-        endTime: new Date('2024-11-26T16:00:00-05:00')    // EST end time
+        startTime: new Date('2024-11-26T16:00:00-05:00'), // EST start time
+        endTime: new Date('2024-11-26T19:00:00-05:00')    // EST end time
     },
     {
         name: 'Second Event',
