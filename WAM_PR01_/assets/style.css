@@ -25,11 +25,17 @@ rgba(218, 118, 42, 1)
 */
 
 body{
-    background-color:azure;
+    /* background-color:azure; */
     font-family: helvetica;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
+h1{
+    font-size: 15px; 
+    line-height: 100%;
+}
 
 .home{
     position: fixed;
@@ -62,6 +68,10 @@ body{
     /* background-color: rgb(42, 165, 108);; */
 }
 
+.column-1{
+    gap: 20px;
+}
+
 [class^="column-"] {
     margin-top: 2px;
 
@@ -69,33 +79,35 @@ body{
 
 .column-2{
     margin-top: 227px;
+    
 }
 
 [class^="item-"] {
     /* background-color: #292929; */
-    /* margin-bottom: 74px; */
+    margin-bottom: 74px;
     padding: 15px;
     
     font-size: 22px;
     line-height: 140%;
+
     width: 300px;
     height: 380px;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 2px;
     border-color: brown;
-    border-radius: 2%;
-    color: brown;
+    border-radius: 2%; */
+    /* color: brown; */
 }
 
 [class^="item-"]:hover{
-background-color: brown;
+/* background-color: brown; */
 color: azure;
 }
 
 
 /* item background colors */
 
-/* .item-db {
+.item-db {
     background-color: rgba(52, 112, 168, 1);
 }
 .item-r{
@@ -119,7 +131,7 @@ color: azure;
     /* font-style: italic;
     font-weight: 800;
     font-size: 30px; 
-    overflow: scroll; */
+    overflow: scroll;
 }
 .item-lb{
     background-color: rgba(98, 207, 237, 1);
