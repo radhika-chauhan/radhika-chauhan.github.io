@@ -1,35 +1,11 @@
-/* violet
-rgba(141, 122, 170, 1)
-
-yellow
-rgba(237, 219, 70, 1)
-
-dark-blue
-rgba(52, 112, 168, 1)
-
-light-blue
-rgba(98, 207, 237, 1)
-
-green
-rgba(125, 192, 137, 1)
-
-red
-rgba(213, 82, 77, 1)
-
-pink
-rgba(208, 114, 132, 1)
-
-orange
-rgba(218, 118, 42, 1)
-
-*/
 
 body{
-    /* background-color:azure; */
+    background-color: rgba(255, 252, 247, 1);
     font-family: helvetica;
     font-size: 20px;
     margin: 0;
     padding: 0;
+    color: rgba(255, 252, 247, 1);
 }
 
 h1{
@@ -44,46 +20,49 @@ h1{
     display: block;
     cursor: pointer;
     text-decoration: none;
-    color: azure;
-    background-color: rgb(42, 165, 108);
+    color:rgba(255, 252, 247, 1) ;
+    background-color: rgba(69, 64, 15, 1);
     padding: 1%;
     left: 10px;
     bottom: 10px;
 }
 
+.home:hover{
+    color: rgba(145, 154, 0, 1) ;
+}
+
 .article{
     cursor: pointer;
     text-decoration: none;
-    color: rgb(42, 165, 108);
-    font-style: italic;
+    color: rgba(255, 252, 247, 1);
 }
 
 .article:hover{
-    color: azure;
+    color: rgba(69, 64, 15, 1);
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    /* background-color: rgb(42, 165, 108);; */
+}
+
+
+
+[class^="column-"] {
+    margin-top: 2px;
 }
 
 .column-1{
     gap: 20px;
 }
 
-[class^="column-"] {
-    margin-top: 2px;
-
-}
-
 .column-2{
-    margin-top: 227px;
-    
+    margin-top: 227px;  
 }
+
+
 
 [class^="item-"] {
-    /* background-color: #292929; */
     margin-bottom: 74px;
     padding: 15px;
     
@@ -92,51 +71,42 @@ h1{
 
     width: 300px;
     height: 380px;
-    /* border-style: solid;
-    border-width: 2px;
-    border-color: brown;
-    border-radius: 2%; */
-    /* color: brown; */
 }
 
-[class^="item-"]:hover{
-/* background-color: brown; */
-color: azure;
-}
+
 
 
 /* item background colors */
 
-.item-db {
-    background-color: rgba(52, 112, 168, 1);
+/* .item-1{
+    background-color: rgba(149, 245, 175, 1);
 }
-.item-r{
-    background-color: rgba(213, 82, 77, 1);
+.item-2{
+    background-color: rgba(245, 223, 144, 1);
 }
-.item-g{
-    background-color: rgba(125, 192, 137, 1);
+.item-3{
+    background-color: rgba(179, 185, 245, 1);
 }
-.item-p{
-    background-color: rgba(208, 114, 132, 1);
+.item-4{
+    background-color: rgba(247, 158, 160, 1);
 }
-.item-y{
-    background-color: rgba(237, 219, 70, 1);
-
-}
-.item-v{
-    background-color: rgba(141, 122, 170, 1);
-}
-.item-o{
-    background-color: rgba(218, 118, 42, 1);
-    /* font-style: italic;
-    font-weight: 800;
-    font-size: 30px; 
-    overflow: scroll;
-}
-.item-lb{
-    background-color: rgba(98, 207, 237, 1);
+.item-5{
+    background-color: rgba(100, 107, 172, 1);
 } */
 
-
-
+.item-1{
+    background-color: rgba(103, 117, 143, 1);
+}
+.item-2{
+    background-color: rgba(145, 154, 0, 1);
+}
+.item-3{
+    background-color: rgba(175, 88, 98, 1);
+}
+.item-4{
+    background-color: rgba(189, 179, 225, 1);
+}
+.item-5{
+    background-color: rgba(100, 150, 168, 1);
+}
 
